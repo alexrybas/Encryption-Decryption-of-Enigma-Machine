@@ -10,7 +10,7 @@ A + 4 + 1 + 1 = G
 
 Now map EFG to first ROTOR such as:
 
-ABCDEFGHIJKLMNOPQRSTUVWXYZ
+ABCDEFGHIJKLMNOPQRSTUVWXYZ\n
 BDFHJLCPRTXVZNYEIWGAKMUSQO
 
 So EFG becomes JLC. Then it is passed through 2 more rotors to get the final value.
