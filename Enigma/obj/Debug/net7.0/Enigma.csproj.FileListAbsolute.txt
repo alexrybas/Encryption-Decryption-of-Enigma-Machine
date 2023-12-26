@@ -1,0 +1,14 @@
+C:\Users\SPASIBOCHTONERYZEN\source\repos\Enigma\Enigma\bin\Debug\net7.0\Enigma.exe
+C:\Users\SPASIBOCHTONERYZEN\source\repos\Enigma\Enigma\bin\Debug\net7.0\Enigma.deps.json
+C:\Users\SPASIBOCHTONERYZEN\source\repos\Enigma\Enigma\bin\Debug\net7.0\Enigma.runtimeconfig.json
+C:\Users\SPASIBOCHTONERYZEN\source\repos\Enigma\Enigma\bin\Debug\net7.0\Enigma.dll
+C:\Users\SPASIBOCHTONERYZEN\source\repos\Enigma\Enigma\bin\Debug\net7.0\Enigma.pdb
+C:\Users\SPASIBOCHTONERYZEN\source\repos\Enigma\Enigma\obj\Debug\net7.0\Enigma.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\SPASIBOCHTONERYZEN\source\repos\Enigma\Enigma\obj\Debug\net7.0\Enigma.AssemblyInfoInputs.cache
+C:\Users\SPASIBOCHTONERYZEN\source\repos\Enigma\Enigma\obj\Debug\net7.0\Enigma.AssemblyInfo.cs
+C:\Users\SPASIBOCHTONERYZEN\source\repos\Enigma\Enigma\obj\Debug\net7.0\Enigma.csproj.CoreCompileInputs.cache
+C:\Users\SPASIBOCHTONERYZEN\source\repos\Enigma\Enigma\obj\Debug\net7.0\Enigma.dll
+C:\Users\SPASIBOCHTONERYZEN\source\repos\Enigma\Enigma\obj\Debug\net7.0\refint\Enigma.dll
+C:\Users\SPASIBOCHTONERYZEN\source\repos\Enigma\Enigma\obj\Debug\net7.0\Enigma.pdb
+C:\Users\SPASIBOCHTONERYZEN\source\repos\Enigma\Enigma\obj\Debug\net7.0\Enigma.genruntimeconfig.cache
+C:\Users\SPASIBOCHTONERYZEN\source\repos\Enigma\Enigma\obj\Debug\net7.0\ref\Enigma.dll

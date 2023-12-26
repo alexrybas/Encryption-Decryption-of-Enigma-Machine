@@ -67,17 +67,46 @@ class Solution
                 encrypt_3 += rotors[2][index];
             }
             Console.Error.WriteLine($"ecrypted 3 message = {encrypt_3}");
-            //result = encrypt_3;
+            result = encrypt_3;
 
         }
 
         else if (operation == "DECODE")
         {
+            string decrypt_3 = "";
+            for (int i = 0; i < message.Length; i++)
+            {
+                int index = rotors[2].IndexOf(message[i]);
+                decrypt_3 += alphabet[index];
+            }
+            Console.Error.WriteLine($"decrypted 3 message = {decrypt_3}");
 
+            string decrypt_2 = "";
+            for (int i = 0; i < decrypt_3.Length; i++)
+            {
+                int index = rotors[1].IndexOf(decrypt_3[i]);
+                decrypt_2 += alphabet[index];
+            }
+            Console.Error.WriteLine($"decrypted 2 message = {decrypt_2}");
+
+            string decrypt_1 = "";
+            for (int i = 0; i < decrypt_2.Length; i++)
+            {
+                int index = rotors[0].IndexOf(decrypt_2[i]);
+                decrypt_1 += alphabet[index];
+            }
+            Console.Error.WriteLine($"decrypted 1 message = {decrypt_1}");
+
+            string shift_back_message = "";
+            for (int i = 0; i < decrypt_1.Length; i++)
+            {
+                int index = alphabet.IndexOf(decrypt_1[i]);
+                int shift_index = (index - pseudoRandomNumber - i + alphabet.Length * 100) % alphabet.Length;
+                shift_back_message += alphabet[shift_index];
+            }
+
+            result = shift_back_message;
         }
-
-
-
 
         Console.WriteLine(result);
     }
